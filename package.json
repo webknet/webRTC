@@ -1,0 +1,26 @@
+{
+  "name": "webRTC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startServer": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webknet/webRTC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webknet/webRTC/issues"
+  },
+  "homepage": "https://github.com/webknet/webRTC#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "espress": "0.0.0",
+    "socket.io": "^3.0.4",
+    "uuid": "^8.3.2"
+  }
+}
