@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "startServer": "nodemon server.js"
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/webknet/webRTC#readme",
   "dependencies": {
     "ejs": "^3.1.5",
-    "espress": "0.0.0",
+    "express": "^4.17.1",
     "socket.io": "^3.0.4",
     "uuid": "^8.3.2"
   }
