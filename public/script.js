@@ -12,12 +12,13 @@ const myPeer = new Peer({
 })
 const peers = {}
 const myVideo = document.createElement('video')
-myVideo.muted = true
+myVideo.muted = 0
 myVideo.volume = 0
+myVideo.autoplay = true
 
 navigator.mediaDevices.getUserMedia({
     video: true,
-    audio: true
+    audio: false
 }).then(stream => {
     addVideoStream(myVideo, stream)
 
