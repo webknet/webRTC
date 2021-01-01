@@ -8,10 +8,10 @@ const { v4: uiidV4 } = require('uuid')
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
 
-// app.get('/', (req, res) => {
-//     //res.redirect(`/${uiidV4()}`)
-//     res.redirect('my-room-test')
-// })
+app.get('/', (req, res) => {
+    //res.redirect(`/${uiidV4()}`)
+    res.redirect('my-room-test')
+})
 
 app.get('/:room', (req, res) => {
     res.render('room', { roomId: req.params.room })
